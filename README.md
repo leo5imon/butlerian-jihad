@@ -1,4 +1,4 @@
-# Butlerian Jihad
+# Butlerian Jihad 🤖
 
 ### Data protocol for authentificating real human creation, connected to a DataDAO for private model training.
 
@@ -9,11 +9,13 @@ The Butlerian Jihad is the term used for the crusades against the machines - AI 
 ## Features
 
 - TLS Notary extension focused on Instagram account retrieval.
+- Boilerplate for TLS Notary extension
+- Onchain smart contract for DataDAO set-up.
 - DataDAO for private model training.
 
 ## Preview
 
-![Preview](https://imgur.com/a/MDdo69t)
+![Preview](https://i.imgur.com/gWAENUW.jpeg)
 
 ## Installation
 
