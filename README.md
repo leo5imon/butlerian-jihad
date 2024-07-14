@@ -4,7 +4,12 @@
 
 ## Introduction
 
-The Butlerian Jihad is the term used for the crusades against the machines - AI - in the Dune universe. We've been bombed from AI Generated content in the past years, and it looks like there are only two solutions against that : you either consider the content before Gen AI the only one worth something - or you try to give artists a way to create fair models based on their works.
+The Butlerian Jihad is the term used for the crusades against the machines - AI - in the Dune universe. We've been bombed from AI Generated content in the past years, and it looks like there are only two solutions against that : 
+- you either consider the content before Gen AI the only one worth something.
+- or you try to give artists a way to create fair models based on their works.
+
+All of those solutions have the same shortcomings : you can just right-click download.
+Butlerian Jihad is a fair protocol, enabling Instagram artists to prove ownership of their account, create / join a DataDAO based on their reputation and partner with other fair artists to train models or LoRA.
 
 ## Features
 
@@ -16,6 +21,8 @@ The Butlerian Jihad is the term used for the crusades against the machines - AI 
 ## Preview
 
 ![Preview](https://i.imgur.com/gWAENUW.jpeg)
+![Preview](https://i.imgur.com/iIRXzhm.png)
+![Preview](https://i.imgur.com/PTTnk2Y.png)
 
 ## Installation
 
@@ -28,7 +35,7 @@ npm run dev
 
 Add your Lighthouse API key by copying the .env.example.
 
-Build the Instagram plugin:
+Build the Instagram plugin on tlsn-plugin-instagram:
 
 ```sh
 npm i
@@ -36,6 +43,7 @@ npm run build
 ```
 
 This will output the wasm binary in `dist/index.wasm`.
+You can also directly use the one available.
 
 ### Running the Instagram Plugin Example
 
