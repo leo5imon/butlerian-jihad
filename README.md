@@ -52,8 +52,9 @@ You can also directly use the one available.
 3. [Run a local notary server](https://github.com/tlsnotary/tlsn/blob/main/notary-server/README.md), ensuring `TLS` is disabled in the [config file](https://github.com/tlsnotary/tlsn/blob/main/notary-server/config/config.yaml#L18).
 4. Install the plugin: Click the **Add a Plugin (+)** button and select the `index.wasm` file you built in step 1. A **Instagram Profile** button should then appear below the default buttons.
 5. Click the **Instagram Profile** button. This action opens the Instagram webpage along with a TLSNotary sidebar.
-6. Follow the steps in the TLSNotary sidebar.
-7. Access the TLSNotary results by clicking the **History** button in the TLSNotary extension.
+6. Run your own Instagram proxy - [Follow this tutorial](https://docs.tlsnotary.org/quick_start/tlsn-js.html?highlight=proxy#run-a-local-notary-server-and-websocket-proxy--optional) and run : docker run -it --rm -p 55688:80 novnc/websockify 80 instagram.com:443
+8. Follow the steps in the TLSNotary sidebar.
+9. Access the TLSNotary results by clicking the **History** button in the TLSNotary extension.
 
 ## Contribution
 
