@@ -59,7 +59,7 @@ You can also directly use the one available.
 ## Contribution
 
 _Contributions are welcome!_
-If you would like to contribute to Magi, please follow these steps:
+If you would like to contribute, please follow these steps:
 
 - Fork the repository.
 - Create a new branch for your feature or bug fix.
